@@ -50,7 +50,7 @@ This script computes the accuracy and ROC-AUC score of the model on the validati
 
 ## Results
 ### Predicted Output Example:
-![Classified Prediction](/home/aditya/Downloads/GSOC_CT1.jpeg)
+![Classified Prediction](/Results/GSOC_CT1.jpeg)
 
 ### Individual Model Comparisons
 Each model is evaluated across different epochs (10, 20, 30, 40) to analyze training trends.
