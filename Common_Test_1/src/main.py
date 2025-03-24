@@ -9,10 +9,10 @@ from test import evaluate_model
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Train and evaluate a ResNet model on NPY dataset.")
-    parser.add_argument("--epochs", type=int, default=30, help="Number of training epochs")
+    parser.add_argument("--epochs", type=int, default=40, help="Number of training epochs")
     parser.add_argument("--batch_size", type=int, default=256, help="Batch size for training and validation")
     parser.add_argument("--lr", type=float, default=1e-3, help="Learning rate for optimizer")
-    parser.add_argument("--model", type=str, default="resnet50", choices=["resnet10", "resnet34", "resnet50", "resnet152"],
+    parser.add_argument("--model", type=str, default="resnet50", choices=["resnet18", "resnet34", "resnet50", "resnet101"],
                         help="ResNet model to use")
     parser.add_argument("--train_path", type=str, required=True, help="Path to training dataset")
     parser.add_argument("--val_path", type=str, required=True, help="Path to validation dataset")
