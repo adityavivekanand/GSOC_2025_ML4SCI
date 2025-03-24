@@ -49,6 +49,9 @@ python test.py --model resnet50 --val_path /path/to/val --num_classes 10
 This script computes the accuracy and ROC-AUC score of the model on the validation dataset.
 
 ## Results
+### Predicted Output Example:
+![Classified Prediction](/home/aditya/Downloads/GSOC_CT1.jpeg)
+
 ### Individual Model Comparisons
 Each model is evaluated across different epochs (10, 20, 30, 40) to analyze training trends.
 
