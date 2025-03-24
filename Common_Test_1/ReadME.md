@@ -1,6 +1,3 @@
-# GSOC_2025_ML4SCI
-This repository contains my solutions for Common Task 1 and Specific Task 4 under the [DeepLense](https://arxiv.org/abs/1909.07346) Project in [ML4SCI](https://ml4sci.org/) organization. 
-
 # Common Task 1: Image Classification using ResNet
 
 ## About the Task
@@ -73,6 +70,3 @@ A final comparison is performed between **ResNet18, ResNet34, ResNet50, and ResN
 
 ---
 This project provides a structured approach to training deep learning models on `.npy` datasets using ResNet architectures. The results guide model selection for optimal performance in image classification tasks.
-
-
-# Specific Task 4: Diffusion Models
