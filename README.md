@@ -49,6 +49,10 @@ python test.py --model resnet50 --val_path /path/to/val --num_classes 10
 This script computes the accuracy and ROC-AUC score of the model on the validation dataset.
 
 ## Results
+### Model Weights:
+https://huggingface.co/adityavivek/resnet_models/tree/main  
+Hugging Face Repo: adityavivek/resnet_models
+
 ### Predicted Output Example:
 ![Classified Prediction](/Results/GSOC_CT1.jpeg)
 
