@@ -50,8 +50,10 @@ This script computes the accuracy and ROC-AUC score of the model on the validati
 
 ## Results
 ### Model Weights:
-https://huggingface.co/adityavivek/resnet_models/tree/main  
-Hugging Face Repo: adityavivek/resnet_models
+
+The trained model weights are hosted on Hugging Face Hub: 
+- **Repository Name**: `adityavivek/resnet_models`
+- **Model Folder**: [Weights](https://huggingface.co/adityavivek/resnet_models/tree/main/Weights)
 
 ### Predicted Output Example:
 ![Classified Prediction](/Results/GSOC_CT1.jpeg)
@@ -142,7 +144,12 @@ These parameters are outlined in the `config.yaml` file, allowing easy modificat
 ## Video Output
 
 During training or sampling, the generated image samples can be saved as grids. These images can be compiled into a video (or animated GIF) to visualize the progression of image quality through the reverse diffusion process. You can use tools like `ffmpeg` to create a video from the saved sample images.
-[Watch the video](/Results/output-video.avi)
+
+<video width="600" controls>
+  <source src="https://raw.githubusercontent.com/adityavivekanand/GSOC_2025_ML4SCI/main/Results/output-video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ## Trained Model Weights and Repository
 
