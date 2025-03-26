@@ -121,6 +121,9 @@ You can visualize the model architecture by running the provided visualization c
 
 ## Dataset
 
+The dataset can be downloaded from the following link:
+[Dataset](https://drive.google.com/file/d/1cJyPQzVOzsCZQctNBuHCqxHnOY7v7UiA/view?usp=sharing)
+
 The project uses a dataset containing images stored in `.npy` format. Each `.npy` file typically represents an array of image data. The configuration file (`config.yaml`) specifies the image directory path under `dataset_params.im_path`.
 
 ## Training
@@ -144,11 +147,6 @@ These parameters are outlined in the `config.yaml` file, allowing easy modificat
 ## Video Output
 
 During training or sampling, the generated image samples can be saved as grids. These images can be compiled into a video (or animated GIF) to visualize the progression of image quality through the reverse diffusion process. You can use tools like `ffmpeg` to create a video from the saved sample images.
-
-<video width="600" controls>
-  <source src="https://raw.githubusercontent.com/adityavivekanand/GSOC_2025_ML4SCI/main/Results/output-video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 [![Watch the video](https://raw.githubusercontent.com/adityavivekanand/GSOC_2025_ML4SCI/main/Results/ST4_thumbnail.png)](https://raw.githubusercontent.com/adityavivekanand/GSOC_2025_ML4SCI/main/Results/output-video.mp4)
 
