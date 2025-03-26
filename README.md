@@ -150,6 +150,7 @@ During training or sampling, the generated image samples can be saved as grids. 
   Your browser does not support the video tag.
 </video>
 
+[![Watch the video](https://raw.githubusercontent.com/adityavivekanand/GSOC_2025_ML4SCI/main/Results/ST4_thumbnail.png)](https://raw.githubusercontent.com/adityavivekanand/GSOC_2025_ML4SCI/main/Results/output-video.mp4)
 
 ## Trained Model Weights and Repository
 
