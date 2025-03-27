@@ -1,6 +1,53 @@
 # GSOC_2025_ML4SCI
 This repository contains my solutions for Common Task 1 and Specific Task 4 under the [DeepLense](https://arxiv.org/abs/1909.07346) Project in [ML4SCI](https://ml4sci.org/) organization. 
 
+## Project Structure
+
+GSOC_2025_ML4SCI/
+│── Common_Test_1/
+│   ├── dataset/
+│   │   ├── __MACOSX/
+│   │   ├── dataset/
+│   │   │   ├── train/
+│   │   │   ├── val/
+│   ├── src/
+│   │   ├── __pycache__/
+│   │   ├── dataset.py
+│   │   ├── main.py
+│   │   ├── model.py
+│   │   ├── result.py
+│   │   ├── test.py
+│   │   ├── train.py
+│   ├── README_CT1.md
+│
+│── model_weights/
+│   ├── CT1_weights.md
+│   ├── ST4_weights.md
+│
+│── notebooks/
+│   ├── Common_Task_1/
+│   │   ├── Common_Task_1.ipynb
+│   ├── Specific_Task_4/
+│   │   ├── config.yaml
+│   │   ├── ddpm.ipynb
+│
+│── Results/
+│   ├── CT1_Acc_vs_Epochs.png
+│   ├── CT1_ROC_vs_Epochs.png
+│   ├── GSOC_CT1.jpeg
+│   ├── output-video.avi
+│   ├── ST4_thumbnail.png
+│
+│── Specific_Test_4/
+│   ├── __pycache__/
+│   ├── Inference/
+│   ├── model.py
+│   ├── README_ST4.md
+│   ├── sample.py
+│   ├── train.py
+│   ├── utils.py
+│   ├── README.md
+
 # Common Task 1: Image Classification using ResNet
 
 ## About the Task
@@ -93,11 +140,11 @@ A final comparison is performed between **ResNet18, ResNet34, ResNet50, and ResN
 This project provides a structured approach to training deep learning models on `.npy` datasets using ResNet architectures. The results guide model selection for optimal performance in image classification tasks.
 
 
-# Specific Task 4: Diffusion Models with DDPM and U-Net
+# Specific Task 4: Diffusion Models
 
 This project implements a diffusion model using a Denoising Diffusion Probabilistic Model (DDPM) framework with a U-Net based architecture. The codebase is modularized into separate files for the model definition, utility functions, training, and sampling/inference.
 
-## Diffusion Models and DDPM
+## Denoising Diffusion Probabilistic Models
 
 Diffusion models are a class of generative models that learn data distributions by gradually corrupting data with noise and then reversing the process to generate new samples. The DDPM framework (Denoising Diffusion Probabilistic Model) specifically employs a Markov chain to iteratively remove noise, enabling the generation of high-quality images.
 

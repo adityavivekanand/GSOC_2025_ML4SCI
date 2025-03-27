@@ -1,8 +1,8 @@
-# Specific Task 4: Diffusion Models with DDPM and U-Net
+# Specific Task 4: Diffusion Models
 
 This project implements a diffusion model using a Denoising Diffusion Probabilistic Model (DDPM) framework with a U-Net based architecture. The codebase is modularized into separate files for the model definition, utility functions, training, and sampling/inference.
 
-## Diffusion Models and DDPM
+## Denoising Diffusion Probabilistic Models
 
 Diffusion models are a class of generative models that learn data distributions by gradually corrupting data with noise and then reversing the process to generate new samples. The DDPM framework (Denoising Diffusion Probabilistic Model) specifically employs a Markov chain to iteratively remove noise, enabling the generation of high-quality images.
 
