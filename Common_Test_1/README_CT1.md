@@ -46,24 +46,42 @@ python test.py --model resnet50 --val_path /path/to/val --num_classes 10
 This script computes the accuracy and ROC-AUC score of the model on the validation dataset.
 
 ## Results
+### Model Weights:
+
+The trained model weights are hosted on Hugging Face Hub: 
+- **Repository Name**: `adityavivek/resnet_models`
+- **Model Folder**: [Weights](https://huggingface.co/adityavivek/resnet_models/tree/main/Weights)
+
+### Predicted Output Example:
+![Classified Prediction](/Results/GSOC_CT1.jpeg)
+
 ### Individual Model Comparisons
 Each model is evaluated across different epochs (10, 20, 30, 40) to analyze training trends.
+| Model    | Accuracy | ROC-AUC | Epochs |
+|----------|----------|---------|--------|
+| Resnet18 | 87.57    | 97.73   | 10     |
+| Resnet18 | 89.05    | 97.66   | 20     |
+| Resnet18 | 90.6     | 97.83   | 30     |
+| Resnet18 | 90.96    | 98.06   | 40     |
+| Resnet34 | 0.9147   | 0.9825  | 10     |
+| Resnet34 | 0.8747   | 0.9705  | 20     |
+| Resnet34 | 0.8800   | 0.9782  | 30     |
+| Resnet34 | 0.8614   | 0.9687  | 40     |
+| Resnet50 | 0.7931   | 0.9714  | 10     |
+| Resnet50 | 0.9003   | 0.9812  | 20     |
+| Resnet50 | 0.9147   | 0.9814  | 30     |
+| Resnet50 | 0.9226   | 0.9812  | 40     |
+| Resnet101| 88.63    | 97.58   | 10     |
+| Resnet101| 91.65    | 98.43   | 20     |
+| Resnet101| 90.84    | 97.88   | 30     |
+| Resnet101| 87.56    | 96.72   | 40     |
 
-#### ResNet18
+#### Graphical Understanding for Comparing the Accuracy and ROC-AUC of each model with respect to No. of Epochs
 Graphical comparison between:
-- Epochs 10, 20, 30, 40
+![Accuracy vs No. of Epochs](/Results/CT1_Acc_vs_Epochs.png)
 
-#### ResNet34
 Graphical comparison between:
-- Epochs 10, 20, 30, 40
-
-#### ResNet50
-Graphical comparison between:
-- Epochs 10, 20, 30, 40
-
-#### ResNet101
-Graphical comparison between:
-- Epochs 10, 20, 30, 40
+![ROC-AUC vs No. of Epochs](/Results/CT1_ROC_vs_Epochs.png)
 
 ### Best Model Selection
 A final comparison is performed between **ResNet18, ResNet34, ResNet50, and ResNet101**, selecting the best epoch for each model to determine the highest accuracy and best-performing architecture.
