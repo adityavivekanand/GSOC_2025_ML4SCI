@@ -46,7 +46,7 @@ GSOC_2025_ML4SCI/
 │   ├── sample.py
 │   ├── train.py
 │   ├── utils.py
-│   ├── README_ST4.md
+│── README.md
 ```
 
 # Common Task 1: Image Classification using ResNet
