@@ -2,7 +2,7 @@
 This repository contains my solutions for Common Task 1 and Specific Task 4 under the [DeepLense](https://arxiv.org/abs/1909.07346) Project in [ML4SCI](https://ml4sci.org/) organization. 
 
 ## Project Structure
-
+```
 GSOC_2025_ML4SCI/
 │── Common_Test_1/
 │   ├── dataset/
@@ -46,7 +46,8 @@ GSOC_2025_ML4SCI/
 │   ├── sample.py
 │   ├── train.py
 │   ├── utils.py
-│   ├── README.md
+│   ├── README_ST4.md
+```
 
 # Common Task 1: Image Classification using ResNet
 
