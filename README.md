@@ -146,9 +146,8 @@ These parameters are outlined in the `config.yaml` file, allowing easy modificat
 ## Video Output
 
 During training or sampling, the generated image samples can be saved as grids. These images can be compiled into a video (or animated GIF) to visualize the progression of image quality through the reverse diffusion process. You can use tools like `ffmpeg` to create a video from the saved sample images.
-Down here, you can view the video by just tapping on the thumbnail!
 
-[![Watch the video](https://raw.githubusercontent.com/adityavivekanand/GSOC_2025_ML4SCI/main/Results/ST4_thumbnail.png)](https://raw.githubusercontent.com/adityavivekanand/GSOC_2025_ML4SCI/main/Results/output-video.avi)
+https://github.com/user-attachments/assets/55258435-e730-44db-adae-7edfff64c19f
 
 ## Trained Model Weights and Repository
 
